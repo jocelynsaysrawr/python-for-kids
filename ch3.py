@@ -10,59 +10,29 @@
 # Write a function to add two numbers together.
 
 
-def addition():
-    first_number = float(
-        input('I will add two numbers. Enter the first number: '))
-    second_number = float(input('Now enter the second number: '))
-    print(first_number + second_number)
-
-
-addition()
+def add(a, b):
+    return (a + b)
 
 # Write a function to subtract one number from another number.
 
 
-def subtraction():
-    first_number = float(input(
-        'I will subtract one number from another number. Enter the first number: '))
-    second_number = float(input('Now enter the second number: '))
-    print(first_number - second_number)
-
-
-subtraction()
+def subtract(a, b):
+    return (a - b)
 
 # Write a function to multiply two numbers.
 
 
-def multiplication():
-    first_number = float(
-        input('I will multiply two numbers. Enter the first number: '))
-    secont_number = float(input('Now enter the second number: '))
-    print(first_number * secont_number)
-
-
-multiplication()
+def multiply(a, b):
+    return (a * b)
 
 # Write a function to divide two numbers.
 
 
-def division():
-    first_number = float(
-        input('I will divide two numbers. Enter the first number: '))
-    second_number = float(input('Now enter the second number: '))
-    print(first_number / second_number)
-
-
-division()
+def divide(a, b):
+    return (a / b)
 
 # Write a function to find the remainder after division.
 
 
-def modulo():
-    first_number = float(input(
-        'I will find the remainder after dividing two numbers. Enter the first number: '))
-    second_number = float(input('Now enter the second number: '))
-    print(first_number % second_number)
-
-
-modulo()
+def modulo(a, b):
+    return (a % b)
